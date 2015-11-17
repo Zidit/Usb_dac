@@ -1,4 +1,4 @@
-update=17.11.2015 22:27:18
+update=18.11.2015 0:44:37
 version=1
 last_client=kicad
 [general]
@@ -94,3 +94,13 @@ LibName32=usb-micro
 LibName33=torx173
 LibName34=optical
 LibName35=usb
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
