@@ -1,0 +1,62 @@
+PCBNEW-LibModule-V1  21.12.2014 19:22:17
+# encoding utf-8
+Units mm
+$INDEX
+Myrra_44237
+$EndINDEX
+$MODULE Myrra_44237
+Po 0 0 0 15 5497018D 00000000 ~~
+Li Myrra_44237
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.75 1 1 0 0.15 N V 21 N "Myrra_44237"
+T1 0 2 1 1 0 0.15 N V 21 N "VAL**"
+DS 22.25 -18.5 22.25 18.5 0.15 21
+DS 22.25 18.5 -22.25 18.5 0.15 21
+DS -22.25 18.5 -22.25 -18.5 0.15 21
+DS -22.25 -18.5 22.25 -18.5 0.15 21
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 -12.5
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 -12.5
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 12.5
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.5 12.5
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 12.5
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.5 12.5
+$EndPAD
+$EndMODULE Myrra_44237
+$EndLIBRARY

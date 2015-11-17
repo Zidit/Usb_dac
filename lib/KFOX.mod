@@ -1,0 +1,66 @@
+PCBNEW-LibModule-V1  21.12.2014 19:50:12
+# encoding utf-8
+Units mm
+$INDEX
+KFOX
+$EndINDEX
+$MODULE KFOX
+Po 0 0 0 15 54970836 00000000 ~~
+Li KFOX
+Sc 0
+AR 
+Op 0 0 0
+T0 -3 -2.75 1 1 0 0.15 N V 21 N "KFOX"
+T1 2.25 -2.75 1 1 0 0.15 N V 21 N "VAL**"
+DS 4.75 -4.65 4.75 -6.65 0.15 21
+DS 4.75 -6.65 -4.75 -6.65 0.15 21
+DS -4.75 -6.65 -4.75 -4.65 0.15 21
+DS 6 -4.65 6 7.35 0.15 21
+DS 6 7.35 -6 7.35 0.15 21
+DS -6 7.35 -6 -4.65 0.15 21
+DS -6 -4.65 0 -4.65 0.15 21
+DS 0 -4.65 6 -4.65 0.15 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.55 3.9
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 3.9
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.55 3.9
+$EndPAD
+$PAD
+Sh "" C 2.1 2.1 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4.6 6
+$EndPAD
+$PAD
+Sh "" C 2.1 2.1 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.6 6
+$EndPAD
+$PAD
+Sh "" C 2.1 2.1 0 0 0
+Dr 2.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE KFOX
+$EndLIBRARY

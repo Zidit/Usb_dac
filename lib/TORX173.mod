@@ -1,0 +1,63 @@
+PCBNEW-LibModule-V1  24.9.2014 20:57:31
+# encoding utf-8
+Units mm
+$INDEX
+TORX173
+$EndINDEX
+$MODULE TORX173
+Po 0 0 0 15 542305F3 00000000 ~~
+Li TORX173
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.2 1 1 0 0.15 N V 21 N "TORX173"
+T1 0 2.6 1 1 0 0.15 N V 21 N "VAL**"
+DS 6.6 -10 6.6 5.6 0.15 21
+DS 6.6 5.6 -6.6 5.6 0.15 21
+DS -6.6 5.6 -6.6 -10 0.15 21
+DS -6.6 -10 0 -10 0.15 21
+DS 0 -10 6.6 -10 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.2 -4.2
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.2 -4.2
+$EndPAD
+$EndMODULE TORX173
+$EndLIBRARY

@@ -1,0 +1,66 @@
+PCBNEW-LibModule-V1  25.9.2014 0:22:06
+# encoding utf-8
+Units mm
+$INDEX
+S1KA
+$EndINDEX
+$MODULE S1KA
+Po 0 0 0 15 542335F8 00000000 ~~
+Li S1KA
+Sc 0
+AR 
+Op 0 0 0
+T0 -6.25 -1.25 1 1 0 0.15 N V 21 N "S1KA"
+T1 -6 1 1 1 0 0.15 N V 21 N "VAL**"
+DS 4.25 -5.5 13.75 -5.5 0.15 21
+DS 13.75 -5.5 13.75 5.5 0.15 21
+DS 13.75 5.5 4.25 5.5 0.15 21
+DS 4.25 0 4.25 -8 0.15 21
+DS 4.25 -8 -19.5 -8 0.15 21
+DS -19.5 -8 -19.5 8 0.15 21
+DS -19.5 8 4.25 8 0.15 21
+DS 4.25 8 4.25 0 0.15 21
+$PAD
+Sh "1" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 -5.85
+$EndPAD
+$PAD
+Sh "1" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 5.85
+$EndPAD
+$PAD
+Sh "2" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -5.85
+$EndPAD
+$PAD
+Sh "2" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 5.85
+$EndPAD
+$PAD
+Sh "3" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -5.85
+$EndPAD
+$PAD
+Sh "3" C 3.5 3.5 0 0 900
+Dr 1.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 5.85
+$EndPAD
+$EndMODULE S1KA
+$EndLIBRARY

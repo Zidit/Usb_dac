@@ -1,0 +1,63 @@
+PCBNEW-LibModule-V1  21.12.2014 20:30:01
+# encoding utf-8
+Units mm
+$INDEX
+USB_B
+$EndINDEX
+$MODULE USB_B
+Po 0 0 0 15 5497119F 00000000 ~~
+Li USB_B
+Sc 0
+AR 
+Op 0 0 0
+T0 -7.7 -8.8 1 1 0 0.15 N V 21 N "USB_B"
+T1 7.8 -7.2 1 1 0 0.15 N V 21 N "VAL**"
+DS -6 0 -6 10.3 0.15 21
+DS -6 10.3 6 10.3 0.15 21
+DS 6 10.3 6 -6 0.15 21
+DS 6 -6 -6 -6 0.15 21
+DS -6 -6 -6 0 0.15 21
+$PAD
+Sh "" C 2.3 2.3 0 0 0
+Dr 2.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.02 0
+$EndPAD
+$PAD
+Sh "" C 2.3 2.3 0 0 0
+Dr 2.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.02 0
+$EndPAD
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.25 -4.71
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.24 -4.71
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.25 -2.71
+$EndPAD
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.25 -2.71
+$EndPAD
+$EndMODULE USB_B
+$EndLIBRARY

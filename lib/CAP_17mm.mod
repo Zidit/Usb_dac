@@ -1,0 +1,35 @@
+PCBNEW-LibModule-V1  24.9.2014 22:17:09
+# encoding utf-8
+Units mm
+$INDEX
+CAP_17mm
+$EndINDEX
+$MODULE CAP_17mm
+Po 0 0 0 15 54231887 00000000 ~~
+Li CAP_17mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.5 1 1 0 0.15 N V 21 N "CAP_17mm"
+T1 0 4.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -6.5 0 -6 0 0.15 21
+DS -6 0 -5.5 0 0.15 21
+DS 5 0 6 0 0.15 21
+DS 5.5 -0.5 5.5 0.5 0.15 21
+DC 0 0 8.5 0 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 0
+$EndPAD
+$EndMODULE CAP_17mm
+$EndLIBRARY
